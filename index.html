@@ -15,9 +15,11 @@
         <link rel="stylesheet" href="assets/css/fonts.css" />
         <link rel="stylesheet" href="assets/css/pixeicons.css" />
         <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="particles.css">
     </head>
     <body class="home front-page">
 
+        
         <div id="loader" class="preloader pr__dark">
             <span class="loading">
                 <span class="txt">Team Prodigy</span>
@@ -47,9 +49,9 @@
         </div><!-- Mobile Nav End -->
 
         <div class="pr__wrapper" id="site-wrapper">
-
-            <div class="pr__hero__wrap pr__dark" style="background-image: url('assets/images/hero_02.jpg');" id="site-hero">
-
+        
+            <div class="pr__hero__wrap pr__dark" id="site-hero">
+                <div id="particles-js"></div>    
                 <header class="pr__header pr__dark" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
                     <div class="uk-container">
                         <div class="inner">
@@ -134,7 +136,7 @@
             <div class="pr__content" id="site-content">
 
                 <hr class="pr__vr__section">
-                <section class="pr__services pr__section pr__dark uk-section uk-section-large" id="pr__services">
+                <section class="pr__services pr__section pr__dark uk-section uk-section-large" id="pr__services" style="z-index: 200">
                     <div class="section-outer">
                         <div class="section-heading">
                             <div class="uk-container">
@@ -194,7 +196,7 @@
                 </section><!-- Section: Services End -->
 
                 <hr class="pr__vr__section">
-                <section class="pr__works pr__section pr__dark section-slider uk-section uk-section-large" id="pr__works">
+                <section class="pr__works pr__section pr__dark section-slider uk-section uk-section-large" id="pr__works" style="z-index: 200">
                     <div class="section-outer">
                         <div class="section-heading">
                             <div class="uk-container">
@@ -227,7 +229,7 @@
                 </section><!-- Section: Works End -->
 
                 <hr class="pr__vr__section">
-                <section class="pr__about pr__section pr__dark uk-section uk-section-large" id="pr__about">
+                <section class="pr__about pr__section pr__dark uk-section uk-section-large" id="pr__about" style="z-index: 200">
                     <div class="section-outer">
                         <div class="section-heading">
                             <div class="outer">
@@ -315,7 +317,7 @@
                 </section><!-- Section: About End -->
 
                 <hr class="pr__vr__section">
-                <section class="pr__blog pr__section pr__dark section-slider uk-section uk-section-large" id="pr__blog">
+                <section class="pr__blog pr__section pr__dark section-slider uk-section uk-section-large" id="pr__blog" style="z-index: 200">
                     <div class="section-outer">
                         <div class="section-heading pr__center">
                             <div class="uk-container">
@@ -375,7 +377,7 @@
                 <hr class="pr__vr__section">
             </div><!-- Site Content End -->
 
-            <footer class="pr__footer" id="site-footer">
+            <footer class="pr__footer" id="site-footer" style="z-index: 200">
 
                 <div class="pr__footer__top uk-section uk-section-large">
                     <div class="section-outer">
@@ -485,6 +487,9 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/validate.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+
     </body>
 </html>
 
